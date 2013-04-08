@@ -11,6 +11,7 @@ The adapter works for Rails 3. It uses [Arel](https://github.com/rails/arel) so 
 
 To install the gem you would have to build it from source:
 
+* compile and build the Java parts of the gem: `jruby java_compile.rb`
 * `jruby -S gem build activerecord-jdbcsybase-adapter.gemspec`
 * `jruby -S gem install activerecord-jdbcsybase-adapter`
 
